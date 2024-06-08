@@ -29,6 +29,14 @@ public:
 
     int IsExist(int id);
 
+    void Mod_Emp();
+
+    void Find_Emp();
+
+    void Sort_Emp();
+
+    void Clean_File();
+
     ~WorkerManager();
 
     int m_EmpNum;

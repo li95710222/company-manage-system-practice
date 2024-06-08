@@ -31,13 +31,17 @@ int main()
             case 3:   //删除
                 wm.Del_Emp();
                 break;
-            case 4:   //退出
+            case 4:   //修改
+                wm.Mod_Emp();
                 break;
-            case 5:   //退出
+            case 5:   //查找
+                wm.Find_Emp();
                 break;
-            case 6:   //退出
+            case 6:   //排序
+                wm.Sort_Emp();
                 break;
-            case 7:   //退出
+            case 7:   //清空
+                wm.Clean_File();
                 break;
             default:
                 system("cls");
